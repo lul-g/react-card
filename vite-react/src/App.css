@@ -1,0 +1,47 @@
+  
+  body {
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.865);
+  }
+
+  nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .h3 {
+    margin-left: 10px;
+  }
+
+.flex-left {
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+  }
+
+.flex {
+    margin:0 20px;
+}
+main {
+    margin:50px 0 !important;
+}
+
+main div {
+    margin: 0 2em;
+}
+
+main ul li{
+    font-size: 1.2em;
+    line-height: 2em;
+    display: flex;
+}
+
+main ul li::before{
+    color: aqua;
+    content: "\2022";
+    margin: 0 1em;
+    font-size: 1.9em;
+}
