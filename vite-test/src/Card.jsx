@@ -1,10 +1,6 @@
 import React from "react";
 import lul from './assets/img/lulu.jpg'
-// import github from './Github Icon.png'
-// import facebook from './Facebook Icon.png'
-// import insta from './Instagram Icon.png'
-// import tweet from './Twitter Icon.png'
-    
+
 export default function Card() {
     return (
         <div className="bod">
