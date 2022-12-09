@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+.App {
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  text-decoration: underline;
+  margin: 2rem 0;
+}
+li {
+  list-style: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+.poem-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid white;
+  width: 40%;
+  height: 90vh;
+  padding: 2rem;
+
+  /* backdrop-filter: blur(150px); */
+  /* z-index: 1; */
+  overflow-y: scroll;
+
+  background: rgba(255, 255, 255, 0.05);
+  scroll-behavior: smooth;
+}
+.poem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  left: 28%;
+  z-index: 999;
+}
